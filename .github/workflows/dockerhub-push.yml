@@ -1,6 +1,9 @@
 name: Docker Build
 
 on:
+  schedule:
+    # Runs at 03:00 UTC on the 7, 14, 21 and 28th of every month
+    - cron: '0 3 7,14,21,28 1-12 ?'
   push:
     branches: [ master ]
   workflow_dispatch:
