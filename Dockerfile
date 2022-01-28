@@ -1,4 +1,4 @@
-FROM ubuntu:focal
+FROM ubuntu:21.10
 LABEL maintainer="hacker-9999 <aseelpsathar.m3@gmail.com>"
 ENV DEBIAN_FRONTEND noninteractive
 
